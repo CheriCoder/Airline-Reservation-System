@@ -161,14 +161,17 @@ public class AirlineReservationSystem {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println();
-        System.out.println("------Airline Reservation System------");
+        System.out.println("------LOG IN------");
         System.out.println();
         System.out.println("Please Enter your username: ");
         String userName = scanner.next();
         System.out.println("Please Enter your password: ");
         String userPass = scanner.next();
         if(userPass.equals(Defpwd) && userName.equals(Defname)){
-            System.out.println("Logged In");
+            System.out.println("------Logged In------");
+            System.out.println();
+            System.out.println("------Airline Reservation System------");
+            System.out.println();
             while (true) {
                 System.out.println("Select an option:");
                 System.out.println("1. Display Flight Types");
