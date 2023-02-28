@@ -1,4 +1,4 @@
-The program is an Airline Reservation System written in Java. It allows users to perform various actions related to flight reservations such as viewing flight types, reserving seats, and sending unaccompanied baggage.
+The program is an Airline Reservation System written in Java. It allows users to perform various actions related to flight reservations such as viewing flight types, reserving seats and sending unaccompanied baggage.
 
 The program is composed of several classes:
 
