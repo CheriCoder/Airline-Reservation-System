@@ -1,0 +1,19 @@
+The program is an Airline Reservation System written in Java. It allows users to perform various actions related to flight reservations such as viewing flight types, reserving seats, and sending unaccompanied baggage.
+
+The program is composed of several classes:
+
+1. AirlineReservationSystem class: This is the main class and contains the main method. It is responsible for managing the entire reservation system. It contains several methods such as addFlight(), displayFlightTypes(), displayPrices(), and reserveSeat(). These methods allow users to view flight details, reserve seats, and manage reservations.
+
+2. Display flight types: This class is responsible for displaying information about different flight types, such as domestic, international, direct, and connecting flights. It retrieves data about the flights from a database and formats it for display to the user. This class may also handle filtering and sorting of flights based on various criteria, such as price, types of flight and seats available.
+
+3. Send unaccompanied baggage: This class is responsible for processing requests to send unaccompanied baggage, which refers to luggage or packages that are shipped separately from the passenger's own luggage. This could be for a variety of reasons, such as excess baggage or for items that cannot be carried on the plane. This class may interact with a shipping or courier service to arrange for the pickup, transportation, and delivery of the baggage, and may also handle any necessary paperwork or documentation.
+
+4. Reserve a class: This class is responsible for managing the reservation of seats on flights for passengers. It interacts with a database or other data source to retrieve information about available flights, seat availability, and pricing. It also handles user authentication and payment processing to confirm the reservation. This class may also send notifications to the airline and the passenger with details about the reservation, such as the flight number, seat assignment, and departure time.
+
+The program starts by creating an instance of the AirlineReservationSystem class and adding several flights to it. The main method then prompts the user to enter a username and password. If the password is correct, the program enters a loop where the user can select various options such as viewing flight types, reserving seats, and sending unaccompanied baggage.
+
+When the user selects the option to reserve a seat, the program prompts the user to enter their name, age, and the number of seats they want to reserve. It then prompts the user to select a flight type and asks if they want to add a meal. Finally, it calculates the total cost of the reservation and displays it to the user.
+
+When the user selects the option to send unaccompanied baggage, the program prompts the user to enter the number of luggage and the total weight of the luggage. It then prompts the user to select the duration of the journey and calculates the total cost of sending the luggage.
+
+Overall, the program provides a basic implementation of an airline reservation system and allows users to perform various actions related to flight reservations.
