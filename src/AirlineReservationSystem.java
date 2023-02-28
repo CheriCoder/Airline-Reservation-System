@@ -1,4 +1,3 @@
-package resSys;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -67,10 +66,11 @@ public class AirlineReservationSystem {
         System.out.print("Enter the number of seats to reserve: ");
         int numSeats = scanner.nextInt();
 
-        int mealPrice = 700;
+        int mealPrice = 0;
         System.out.println("Would you like a meal ? (Y/N)");
         char m = scanner.next().charAt(0);
         if(m == 'Y' || m == 'y'){
+            mealPrice = 700;
             System.out.println("Meal Added !");
         }else {
             System.out.println("No Meal Charges !");
